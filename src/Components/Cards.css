@@ -1,0 +1,18 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);  
+}
+.info{
+    border: solid aqua 2px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+}
+.photo{
+    width: 100px;
+    background-size:contain !important;
+}
+ .des{
+    font-size: large;
+
+ }

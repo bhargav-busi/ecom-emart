@@ -1,0 +1,11 @@
+/* Hide wishlist icon by default */
+.wishlist-icon {
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+  }
+  
+  /* Show wishlist icon when hovering over the product */
+  .card:hover .wishlist-icon {
+    visibility: visible;
+  }
+  
